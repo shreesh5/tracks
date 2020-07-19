@@ -13,7 +13,6 @@ const AuthForm = ({ headerText, errorMessage, onSubmit, submitButtonText }) => {
         <Spacer>
             <Text h3>{headerText}</Text>
         </Spacer>
-        <Spacer />
         <Input 
             label="Email" 
             value={email}
